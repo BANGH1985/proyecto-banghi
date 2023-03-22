@@ -178,6 +178,13 @@ iframe{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr
     }
+    .logoMarcas{
+        width: 60%;
+    }
+    .datosMarcas{
+        font-size: medium;
+    }
+
 }
 
 @media screen and (max-width:400px){
@@ -187,5 +194,11 @@ iframe{
     .donaciones{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
+    }
+    .logoMarcas{
+        width: 40%;
+    }
+    .datosMarcas{
+        font-size: small;
     }
 }
