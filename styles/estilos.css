@@ -150,7 +150,7 @@ iframe{
     margin: 80px;
 }
 
-@media screen and (min-width:1200px){
+@media screen and (max-width:1200px){
     #carouselExampleControlsNoTouching{
         margin: 25px 100px;
     }
@@ -163,7 +163,7 @@ iframe{
     }
 }
 
-@media screen and (min-width:860px){
+@media screen and (max-width:860px){
     #carouselExampleControlsNoTouching{
         margin: 5px 5px;
     }
@@ -180,7 +180,7 @@ iframe{
     }
 }
 
-@media screen and (min-width:400px){
+@media screen and (max-width:400px){
     #carouselExampleControlsNoTouching{
         margin: 5px 5px;
     }
