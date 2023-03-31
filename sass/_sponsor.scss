@@ -1,0 +1,17 @@
+.seccionsponsor{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(4,22em);
+    grid-template-rows: repeat(2, 15em);
+    margin: 1.2em;
+}
+
+.donaciones{
+    display: grid;
+    grid-template-columns: repeat(3, 23em);
+    grid-template-rows: 15em;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1.2em;
+}

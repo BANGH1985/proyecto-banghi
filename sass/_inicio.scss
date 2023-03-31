@@ -1,0 +1,24 @@
+.rostro{    
+    width: 40rem;   
+    height: 50rem;
+}     
+
+.videoportada{   
+    margin: 3em; 
+}
+
+.portada{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+
+.videodiario{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 50em);
+    grid-template-rows: 35em;
+    margin: 2rem;
+}

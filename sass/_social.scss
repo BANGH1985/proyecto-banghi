@@ -1,0 +1,25 @@
+.contenidoeventos{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 5rem;
+    .fotoeventos{
+        border: aquamarine;
+        border-style: double;
+        height: 15rem;
+        width: 20rem;
+    }
+    
+}
+
+.logoredes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+

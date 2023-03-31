@@ -1,0 +1,16 @@
+.cajacontenido{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 50em);
+    grid-template-rows: 35em;
+    margin: 2rem;
+    .contenidovideos{
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        margin: 3em;
+    }
+}
+
+

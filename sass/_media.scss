@@ -1,0 +1,36 @@
+@media screen and (max-width:1600px){
+    body{
+        font-size: 90%;
+    }
+    main{
+        font-size: 90%;
+    }
+    .portada{
+        max-width: 90%;
+        max-height: 90%;
+    }
+}
+
+
+@media screen and (max-width:1450px){
+    body{
+        font-size: 80%;
+        text-size-adjust: 80%;
+    }
+    main{
+        font-size: 80%;
+    }
+    .portada{
+        max-width: 80%;
+        max-height: 80%;
+    }
+}
+
+@media screen and (min-width:768px){
+
+}
+
+@media screen and (min-width:480px){
+
+}
+
