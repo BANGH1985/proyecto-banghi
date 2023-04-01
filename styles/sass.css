@@ -5,9 +5,14 @@
   align-items: center;
   grid-template-columns: repeat(2, 50em);
   grid-template-rows: 35em;
-  margin: 2rem;
+  margin: 0.5rem;
+  grid-template-areas: "video texto";
+}
+.cajacontenido .contenidotexto {
+  grid-area: texto;
 }
 .cajacontenido .contenidovideos {
+  grid-area: video;
   align-items: center;
   justify-content: center;
   justify-items: center;
@@ -112,6 +117,7 @@ header ul li a {
 }
 
 .videoportada {
+  grid-area: videoinicio;
   margin: 3em;
 }
 
@@ -128,7 +134,12 @@ header ul li a {
   align-items: center;
   grid-template-columns: repeat(2, 50em);
   grid-template-rows: 35em;
+  grid-template-areas: "videoinicio textoinicio";
   margin: 2rem;
+}
+
+.textoportada {
+  grid-area: textoinicio;
 }
 
 .seccionsponsor {
@@ -164,27 +175,38 @@ header ul li a {
   body {
     font-size: 90%;
   }
-  main {
-    font-size: 90%;
+  p {
+    font-size: 1.2em;
   }
-  .portada {
-    max-width: 90%;
-    max-height: 90%;
+  .rostro {
+    width: 35em;
+    height: 45em;
   }
 }
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1350px) {
   body {
     font-size: 80%;
     -webkit-text-size-adjust: 80%;
        -moz-text-size-adjust: 80%;
             text-size-adjust: 80%;
   }
-  main {
-    font-size: 80%;
+  .rostro {
+    width: 30em;
+    height: 40em;
   }
-  .portada {
-    max-width: 80%;
-    max-height: 80%;
+  .cajacontenido {
+    grid-template-columns: 50em;
+    grid-template-rows: 35em;
+    grid-template-areas: "video" "texto";
+  }
+  iframe {
+    width: 500px;
+    height: 350px;
+  }
+  .videodiario {
+    grid-template-columns: 50em;
+    grid-template-rows: 35em;
+    grid-template-areas: "videoinicio" "textoinicio";
   }
 }
 .contenidoeventos {

@@ -4,8 +4,14 @@
     align-items: center;
     grid-template-columns: repeat(2, 50em);
     grid-template-rows: 35em;
-    margin: 2rem;
+    margin: 0.5rem;
+    grid-template-areas: 
+    "video texto";
+    .contenidotexto{
+        grid-area: texto;
+    }
     .contenidovideos{
+        grid-area: video;
         align-items: center;
         justify-content: center;
         justify-items: center;

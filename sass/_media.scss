@@ -2,12 +2,12 @@
     body{
         font-size: 90%;
     }
-    main{
-        font-size: 90%;
+    p{
+        font-size: 1.2em;
     }
-    .portada{
-        max-width: 90%;
-        max-height: 90%;
+    .rostro{
+        width: 35em;   
+        height: 45em;
     }
 }
 
@@ -17,20 +17,92 @@
         font-size: 80%;
         text-size-adjust: 80%;
     }
-    main{
-        font-size: 80%;
+    .rostro{
+        width: 30em;   
+        height: 40em;
     }
-    .portada{
-        max-width: 80%;
-        max-height: 80%;
+    .descripcion{
+        font-size: 0.5em;
+    }
+    h1{
+        font-size: 2em;
+    }
+    h2{
+        font-size: 1em;
+    }
+    .cajacontenido{
+        grid-template-columns: 50em;
+        grid-template-rows: 35em;
+        grid-template-areas: 
+        "video texto";
+    }
+    iframe{
+        width: 500px; 
+        height: 350px;
+    }
+    .videodiario{
+        grid-template-columns: 50em;
+        grid-template-rows: 35em;
+        grid-template-areas: 
+        "videoinicio textoinicio";
     }
 }
 
-@media screen and (min-width:768px){
-
+@media screen and (max-width:768px){
+    body{
+        font-size: 70%;
+        text-size-adjust: 70%;
+    }
+    .rostro{
+        width: 15em;   
+        height: 20em;
+    }
+    .cajacontenido{
+        grid-template-columns: 40em;
+        grid-template-rows: 25em;
+        grid-template-areas: 
+        "video"
+        "texto";
+    }
+    iframe{
+        width: 300px; 
+        height: 180px;
+    }
+    .videodiario{
+        grid-template-columns: 40em;
+        grid-template-rows: 25em;
+        grid-template-areas: 
+        "videoinicio"
+        "textoinicio";
+    }
 }
 
-@media screen and (min-width:480px){
+@media screen and (max-width:450px){
+    body{
+        font-size: 50%;
+        text-size-adjust: 50%;
+    }
+    .rostro{
+        width: 10em;   
+        height: 15em;
+    }
+    .cajacontenido{
+        grid-template-columns: 20em;
+        grid-template-rows: 15em;
+        grid-template-areas: 
+        "video"
+        "texto";
+    }
+    iframe{
+        width: 150px; 
+        height: 90px;
+    }
+    .videodiario{
+        grid-template-columns: 20em;
+        grid-template-rows: 15em;
+        grid-template-areas: 
+        "videoinicio"
+        "textoinicio";
+    }
 
 }
-

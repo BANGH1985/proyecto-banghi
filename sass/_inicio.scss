@@ -3,7 +3,8 @@
     height: 50rem;
 }     
 
-.videoportada{   
+.videoportada{
+    grid-area: videoinicio;
     margin: 3em; 
 }
 
@@ -20,5 +21,12 @@
     align-items: center;
     grid-template-columns: repeat(2, 50em);
     grid-template-rows: 35em;
+    grid-template-areas: 
+    "videoinicio textoinicio";
     margin: 2rem;
 }
+
+.textoportada{
+    grid-area: textoinicio;
+}
+
