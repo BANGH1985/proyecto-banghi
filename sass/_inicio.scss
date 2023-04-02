@@ -1,12 +1,7 @@
 .rostro{    
-    width: 40rem;   
-    height: 50rem;
+    width: 600px;   
+    height: 700px;
 }     
-
-.videoportada{
-    grid-area: videoinicio;
-    margin: 3em; 
-}
 
 .portada{
     display: flex;
@@ -15,18 +10,10 @@
     align-items: center;
     }
 
-.videodiario{
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    grid-template-columns: repeat(2, 50em);
-    grid-template-rows: 35em;
-    grid-template-areas: 
-    "videoinicio textoinicio";
-    margin: 2rem;
+
+.rostro:hover{
+    transform: scale(1.2);
+    transition: 500ms;
 }
 
-.textoportada{
-    grid-area: textoinicio;
-}
 

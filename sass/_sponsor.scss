@@ -1,17 +1,32 @@
+
 .seccionsponsor{
     display: grid;
-    align-items: center;
     justify-items: center;
-    grid-template-columns: repeat(4,22em);
-    grid-template-rows: repeat(2, 15em);
-    margin: 1.2em;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 200px;
+    margin: 0.5em;
 }
 
 .donaciones{
     display: grid;
-    grid-template-columns: repeat(3, 23em);
-    grid-template-rows: 15em;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 160px;
     align-items: center;
     justify-content: space-evenly;
-    margin: 1.2em;
+    margin: 2em;
 }
+
+.logomarcas{
+    grid-area: logo;
+}
+
+.contenidosponsor{
+    margin: 2em;
+}
+.contenidodonaciones{
+    margin: 2em;
+}
+
