@@ -92,6 +92,15 @@
         width: 120px;
         height: 120px;
     }
+    .galeria{
+        grid-template-columns:  repeat(2, 1fr);
+        grid-template-rows: 500px;
+        grid-template-areas:  
+        "img1 img2"
+        "img3 img4"
+        "img5 img6";
+        margin: 30px;
+    }
 }
 
 @media screen and (max-width:768px){
