@@ -90,8 +90,8 @@
     .tamañovideo{
         max-width: 300px;
         max-height: 150px;
-        top: 17%;
-        left: 17%;
+        top: 31%;
+        left: 27%;
     }
     .descripcion{
         font-size: 12px;
@@ -149,7 +149,25 @@
     }
 }
 
-@media screen and (max-width:380px){
+@media screen and (max-width:600px){
+    .tamañovideo{
+        max-width: 300px;
+        max-height: 150px;
+        top: 27%;
+        left: 21%;
+    }
+}
+
+@media screen and (max-width:460px){
+    .tamañovideo{
+        max-width: 300px;
+        max-height: 150px;
+        top: 15%;
+        left: 12%;
+    }
+}
+
+@media screen and (max-width:385px){
     .tamañovideo{
         max-width: 300px;
         max-height: 200px;
