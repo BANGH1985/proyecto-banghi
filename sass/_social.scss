@@ -1,35 +1,19 @@
-.contenidoeventos{
-    display: grid;
-    grid-template-columns: repeat(3, 500px);
-    grid-template-rows: repeat(2, 600px);
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-}
-
-.logoredes{
+.galeria{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    align-content: center;
+    flex-wrap: wrap;
     justify-content: center;
-}
-
-.galeria{
-    padding-bottom: 3em;
-    padding-top: 1em;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 700px;
     gap: .8em;
     margin: 40px;
 }
+
 
 .galeriafotos{
     position: relative;
     cursor: pointer;
     overflow: hidden;
 }
+
 .galeriafotos::before{
     content: "AGS-Argentina Game Show 2022";
     position: absolute;
@@ -43,9 +27,9 @@
     color: #fff;
     display: flex;
     align-items: center;
-    justify-content: center;
     justify-items: center;
-    font-size: 1.5rem;
+    justify-content: center;
+    font-size: 1rem;
     font-weight: bolder;
     border-radius: 5%;
 }
@@ -54,11 +38,22 @@
 }
 
 .galeria__img{
-    width: 100%;
-    height: 100%;
+    width: 13rem;
+    height: 25rem;
     border-radius: 5%;
     object-fit: cover;
 }
 
 
+.logoredes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
 
+.logomedia:hover{
+    transform: scale(1.3);
+    transition: 500ms;
+}

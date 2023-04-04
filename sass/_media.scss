@@ -32,10 +32,6 @@
         width: 500px;
         height: 600px;
     }
-    .contenidoeventos{
-        grid-template-columns: repeat(3, 350px);
-        grid-template-rows: repeat(2, 450px);
-    }
     .logomedia{
         width: 130px;
         height: 130px;
@@ -84,22 +80,9 @@
         max-width: 300px;
         max-height: 400px;
     }
-    .contenidoeventos{
-        grid-template-columns: repeat(3, 350px);
-        grid-template-rows: repeat(2, px);
-    }
     .logomedia{
         width: 120px;
         height: 120px;
-    }
-    .galeria{
-        grid-template-columns:  repeat(2, 1fr);
-        grid-template-rows: 500px;
-        grid-template-areas:  
-        "img1 img2"
-        "img3 img4"
-        "img5 img6";
-        margin: 30px;
     }
 }
 
@@ -150,10 +133,6 @@
         grid-template-columns: repeat(3, 350px);
         grid-template-rows: repeat(2, px);
     }
-    .galeria{
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 380px 380px;
-    }
     .logomedia{
         width: 75px;
         height: 70px;
@@ -164,8 +143,9 @@
     .formulario{
         margin: 20px;
     }
-    .galeriafotos:hover::before{
-        content: none;
+    .galeria__img{
+        width: 15rem;
+        height: 25rem;
     }
 }
 
@@ -210,7 +190,7 @@
     }
     .rostro{
         max-width: 220px;
-        max-height: 320px;
+        max-height: 280px;
     }
     .contenidoeventos{
         grid-template-columns: repeat(3, 350px);
@@ -226,15 +206,15 @@
         width: 60px;
         height: 60px;
     }
-    .galeria{
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: 200px 200px;
-    }
     .galeriafotos:hover::before{
         content: none;
     }
     .formulario{
         margin: 30px;
+    }
+    .galeria__img{
+        width: 150px;
+        height: 200px;
     }
 }
 
