@@ -344,7 +344,7 @@ header ul li a {
     left: 12%;
   }
 }
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 388px) {
   .tamañovideo {
     max-width: 300px;
     max-height: 200px;
