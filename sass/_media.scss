@@ -156,6 +156,9 @@
         top: 27%;
         left: 21%;
     }
+    .galeriafotos:hover::before{
+        content: none;
+    }
 }
 
 @media screen and (max-width:460px){
@@ -164,6 +167,9 @@
         max-height: 150px;
         top: 15%;
         left: 12%;
+    }
+    .galeriafotos:hover::before{
+        content: none;
     }
 }
 
