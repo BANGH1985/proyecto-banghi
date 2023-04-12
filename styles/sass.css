@@ -182,8 +182,8 @@ header ul li a {
 }
 .formulario .mb-3 {
   color: azure;
-  margin: 10px;
-  padding: 10px;
+  margin: 8px;
+  padding: 8px;
 }
 
 @media screen and (max-width: 1550px) {
@@ -359,7 +359,7 @@ header ul li a {
     left: 0;
   }
   .descripcion {
-    font-size: 16px;
+    font-size: 12px;
     margin: 1em;
   }
   h1 {
@@ -417,7 +417,6 @@ header ul li a {
     height: 200px;
   }
   .mb-3 {
-    color: azure;
     margin: 2px;
     padding: 2px;
   }
