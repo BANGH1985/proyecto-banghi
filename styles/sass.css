@@ -403,8 +403,8 @@ header ul li a {
     margin: 4.5em;
   }
   .logomedia {
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
   }
   .galeriafotos:hover::before {
     content: none;
@@ -473,6 +473,6 @@ header ul li a {
 }
 
 .logomedia:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
   transition: 500ms;
 }/*# sourceMappingURL=sass.css.map */
